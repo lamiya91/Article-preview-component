@@ -14,18 +14,27 @@ body{
     font-size: 13px;
     font-family: 'Manrope', sans-serif;
     margin: 0;
+    height: 100vh;
+
 }
-.atricals{
-    background-color: hsl(210, 46%, 95%);
-}
-.cards{
-    display: flex;
-    align-items: center;
-}
-h2{
-    color:rgb(110, 3, 110);
-    font-size:30px ;
-}
-p{
+
+
+.posts{
+   background-color: hsl(210, 46%, 95%);
+   height: 100vh; 
+   display: flex;
+   align-items: center;
   
+}
+.post{
+    background-color: white;
+    width: 800px;
+    margin: auto; 
+ 
+    
+}
+
+
+.post-image{
+    width: 100px;
 }
